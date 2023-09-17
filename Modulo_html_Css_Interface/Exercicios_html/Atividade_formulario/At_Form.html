@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemope agendamento</title>
+</head>
+
+<body class="cadastro-container">
+
+    <section class="form-container">
+        <fieldset>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <h3>Preencha os campos abaixo para realizar o agendamento</h3>
+                <!--Nome-->
+                <label for="nome">Nome:</label>
+                <input name="nome" type="text required" id="nome" placeholder="Informe o seu nome completo" autofocus
+                    autocomplete="off" required size="40px" />
+                <br /> <br />
+                <!--Cpf-->
+                <label for="cpf">CPF</label>
+                <input name="cpf" type="text" id="cpf" placeholder="000.000.000-00" autocomplete="off" required
+                    size="40px" /> <br /> <br />
+                <!--Endereço-->
+                <label for="endereço">Endereço:</label>
+                <input name="endereço" type="text" id="endereço" placeholder="informe deu endereço" autocomplete="on"
+                    required size="40px" />
+                <br /> <br />
+                <!--Email-->
+                <label for="email">Email:</label>
+                <input name="email" type="email" id="email" placeholder="Informe o seu endereço de e-mail"
+                    autocomplete="on" required size="40px" /> <br /> <br />
+                <!--Telefone-->
+                <label for="celular"> Celular:</label>
+                <input name="celular" type="tel" id="celular" placeholder="(xx) xxxxx-xxxx" autocomplete="off" required
+                    size="40px" /> <br />
+                <br />
+                <!--local de doção-->
+                <label for="Local">Centro de Atendimento</label>
+                <select name="Hemocentro" id="Local" required>
+                    <option value="none">-- --</option>
+                    <option value="local-1">Hemocentro Coordenador Recife</option>
+                    <option value="local-2">Hemocentro Regional Caruaru</option>
+                    <option value="local-3">Hemocentro Regional Garanhuns</option>
+                    <option value="local-4">Núcleo de Hemoterapia Regional Arcoverde</option>
+                    <option value="local-5">Hemocentro Regional Petrolina</option>
+
+                </select> <br> <br>
+                <!--Data de agendamento-->
+                <label for="agendamento"> Data de agendamento:</label>
+                <input name="agendamento" type="date" id="agendamento" placeholder="dd/mm/aaaa" autocomplete="off"
+                    required size="40px" /> <br />
+                <br />
+                <!--Horário de agendamento-->
+                <label for="horário">Horário de doação</label>
+                <input name="horario" type="time" placeholder="00:00" id="horário" autocomplete="off" size="40px"
+                    disabled /> <br /> <br />
+                <!--tipo sanguíneo-->
+                <label for="tipo sanguíneo"> Infome o seu tipo sanguíneo:</label>
+                <select name="tipo sanguíneo" id="tipo sanguíneo">
+                    <option value="nome"> -- --</option>
+                    <option value="desconhecido">não sei informar</option>
+                    <option value="tipo1">A+</option>
+                    <option value="tipo2">A-</option>
+                    <option value="tipo3">B+</option>
+                    <option value="tipop4">B-</option>
+                    <option value="tipo5"> AB+</option>
+                    <option value="tipo6">AB-</option>
+                    <option value="tipo7"> O+</option>
+                    <option value="tipo8"> O-</option>
+                </select> <br> <br>
+                <!--documento-->
+                <legend>Envie um documento de identificação com foto</legend>
+                <input name="documento" type="file" id="arquivo" size="40px" /> <br /> <br />
+                <input name="envio" type="submit" />
+                <input name="cancel" type="reset" />
+
+            </form>
+        </fieldset>
+        <div>
+            <button class="button-form"><a href="final_cad.html">Finalizar</a></button>
+        </div>
+    </section>
+
+</body>
+
+</html>

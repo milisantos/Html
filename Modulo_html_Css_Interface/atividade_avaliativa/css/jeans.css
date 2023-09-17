@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
+                url('../assets/img/Free\ \ Travel\,\ World\,\ Earth\ Background\ Images\,\ Travel\ Background\ Photo\ Background\ PNG\ and\ Vectors.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+.registro {
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgb(50, 113, 186);
+    border-radius: 20px;
+
+}
+.registro a{
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.info span{
+    letter-spacing: 5px;
+}
+
+.info h1{
+    font-size: 3.5em;
+}
+
+.info a{
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}

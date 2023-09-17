@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0px;
+    outline: none;
+    text-decoration: none;
+    background-color:rgb(219, 31, 34);
+    text-decoration-color: black;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5px;
+
+}
+.title-container{
+    margin: 5px;
+    padding: 5px;
+}
+.capa{
+    
+    margin: 100px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    
+}
+.logo-container{
+    margin: 5px;
+    padding: 0;
+    
+}
+.bot{
+    margin: 10px;
+    padding: 2px;
+    background-color: rgb(230, 221, 228);
+    size: 10px;
+    
+}
